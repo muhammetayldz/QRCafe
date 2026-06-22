@@ -1,0 +1,238 @@
+{
+  "menu": {
+    "kahvalti": {
+      "name": "Kahvaltı",
+      "order": 1,
+      "image": "",
+      "items": {
+        "kahvalti_tabagi": {
+          "name": "Kahvaltı Tabağı",
+          "price": 50,
+          "description": "Zengin kahvaltı tabağı",
+          "image": "",
+          "ingredients": ["peynir", "zeytin", "domates", "salatalık", "tereyağı", "bal", "reçel"],
+          "available": true,
+          "featured": true,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        },
+        "omlet": {
+          "name": "Omlet",
+          "price": 35,
+          "description": "Taze hazırlanmış omlet",
+          "image": "",
+          "ingredients": ["yumurta", "peynir", "domates"],
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z",
+          "updated_at": "2024-03-14T00:00:00.000Z"
+        },
+        "simit": {
+          "name": "Simit",
+          "price": 10,
+          "description": "Taze simit",
+          "image": "",
+          "ingredients": ["un", "susam"],
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        },
+        "tost": {
+          "name": "Tost",
+          "price": 25,
+          "description": "Karışık tost",
+          "image": "",
+          "ingredients": ["ekmek", "kaşar", "sucuk"],
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        }
+      }
+    },
+    "tatlilar": {
+      "name": "Tatlılar",
+      "order": 2,
+      "image": "",
+      "items": {
+        "baklava": {
+          "name": "Baklava",
+          "price": 40,
+          "description": "Antep fıstıklı baklava",
+          "image": "https://firebasestorage.googleapis.com/v0/b/qr-menu-23.firebasestorage.app/o/baklava.jpg?alt=media&token=27bf1213-f351-4e15-ac91-541a19d657e3",
+          "ingredients": ["un", "fıstık", "tereyağı", "şeker"],
+          "available": true,
+          "featured": true,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        },
+        "sutlac": {
+          "name": "Sütlaç",
+          "price": 30,
+          "description": "Fırında sütlaç",
+          "image": "",
+          "ingredients": ["süt", "pirinç", "şeker"],
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        }
+      }
+    },
+    "salatalar": {
+      "name": "Salatalar",
+      "order": 3,
+      "image": "",
+      "items": {
+        "coban_salata": {
+          "name": "Çoban Salata",
+          "price": 50,
+          "description": "Taze mevsim sebzeleri ile",
+          "image": "",
+          "ingredients": ["domates", "salatalık", "biber", "soğan"],
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        }
+      }
+    },
+    "icecekler": {
+      "name": "İçecekler",
+      "order": 4,
+      "image": "",
+      "items": {
+        "ayran": {
+          "name": "Ayran",
+          "price": 20,
+          "description": "Taze ayran",
+          "image": "https://firebasestorage.googleapis.com/v0/b/qr-menu-23.firebasestorage.app/o/ayran.jpg?alt=media&token=f610d010-c505-4551-862a-01e4d6e040a6",
+          "ingredients": ["yoğurt", "su", "tuz"],
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        },
+        "cay": {
+          "name": "Çay",
+          "price": 20,
+          "description": "Taze demlenmiş çay",
+          "image": "",
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        },
+        "kola": {
+          "name": "Kola",
+          "price": 15,
+          "description": "Soğuk kola",
+          "image": "https://firebasestorage.googleapis.com/v0/b/qr-menu-23.firebasestorage.app/o/kola.jpg?alt=media&token=398d32c8-a632-4f99-810a-23a826df0749",
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        },
+        "salgam": {
+          "name": "Şalgam",
+          "price": 30,
+          "description": "Acılı/Acısız şalgam",
+          "image": "",
+          "available": true,
+          "featured": false,
+          "created_at": "2024-03-14T00:00:00.000Z"
+        }
+      }
+    }
+  },
+  "tables": {
+    "table1": {
+      "number": 1,
+      "name": "Teras 1",
+      "capacity": 4,
+      "location": "Teras",
+      "status": "available",
+      "qr_url": "https://muhammetayldz.github.io/qr/?table=1"
+    },
+    "table2": {
+      "number": 2,
+      "name": "Teras 2",
+      "capacity": 4,
+      "location": "Teras",
+      "status": "available",
+      "qr_url": "https://muhammetayldz.github.io/qr/?table=2"
+    },
+    "table3": {
+      "number": 3,
+      "name": "İç Mekan 1",
+      "capacity": 6,
+      "location": "İç Mekan",
+      "status": "available",
+      "qr_url": "https://muhammetayldz.github.io/qr/?table=3"
+    },
+    "table4": {
+      "number": 4,
+      "name": "İç Mekan 2",
+      "capacity": 6,
+      "location": "İç Mekan",
+      "status": "available",
+      "qr_url": "https://muhammetayldz.github.io/qr/?table=4"
+    }
+  },
+  "orders": {
+    "active": {},
+    "history": {
+      "-ORH_kEMFroECbFMRjtt": {
+        "items": [
+          {
+            "name": "mercimek çorbası",
+            "price": 25,
+            "quantity": 1
+          }
+        ],
+        "status": "Teslim Edildi",
+        "table": "3",
+        "timestamp": "2025-05-27T16:32:42.002Z",
+        "total": 25
+      },
+      "-ORHeSzTheUTwgld9GN1": {
+        "items": [
+          {
+            "name": "Ayran",
+            "price": 20,
+            "quantity": 1
+          },
+          {
+            "name": "çay",
+            "price": 20,
+            "quantity": 1
+          },
+          {
+            "name": "şalgam",
+            "price": 30,
+            "quantity": 1
+          },
+          {
+            "name": "Kola",
+            "price": 15,
+            "quantity": 1
+          }
+        ],
+        "status": "Teslim Edildi",
+        "table": "3",
+        "timestamp": "2025-05-27T16:52:54.368Z",
+        "total": 85
+      }
+    }
+  },
+  "settings": {
+    "currency": "₺",
+    "restaurant_name": "QR Menü Restaurant",
+    "contact": {
+      "phone": "+90 532 123 45 67",
+      "email": "info@qr-menu.com",
+      "address": "123 Main St, Anytown, USA"
+    },
+    "working_hours": {
+      "monday": {"open": "09:00", "close": "22:00"},
+      "tuesday": {"open": "09:00", "close": "22:00"},
+      "wednesday": {"open": "09:00", "close": "22:00"},
+      "thursday": {"open": "09:00", "close": "22:00"},
+      "friday": {"open": "09:00", "close": "23:00"},
+      "saturday": {"open": "09:00", "close": "23:00"},
+      "sunday": {"open": "09:00", "close": "22:00"}
+    }
+  }
+}
